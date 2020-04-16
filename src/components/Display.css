@@ -1,0 +1,13 @@
+.display {
+    /* property to a single grid element */
+    grid-column: span 4;
+    /* span means that this grid must get 4 columns */
+    background-color: #0004;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    font-size: 2.1em;
+    font-family: 'RobotoMono';
+    font-weight: 100;
+}
